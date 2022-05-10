@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0, 0.1), rgb(100,100,100)),  url(./1.jpg);
+}
+
+.first-collection{
+    padding: 20px;
+    text-align: center;
+}
+.first-collection h2{
+    padding: 20px;
+}
+.first-collection p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.second-collection{
+    text-align: center;
+
+    padding: 20px;
+}
+
+.pictures{
+    display: grid;
+
+    column-count: 3;
+
+    padding: 20px;
+}
+
+.pic-1{
+    grid-column-start: 1;
+}
+
+.pic-2{
+    grid-column-start: 2;
+}
+
+.pic-3{
+    grid-column-start: 3;
+}
+
+.third-collection-heading{
+    text-align: center;
+}
+
+.pictures-2{
+    display: grid;
+
+    grid-template-columns: 50%, 50%;
+    column-gap: 20px;
+    row-gap: 100px;
+
+    padding: 50px;
+}
+
+.pic-5{
+    grid-column-start: 2;
+}
+.text-2{
+    grid-column-start: 1;
+}
+
+
+footer{
+    background-color: black;
+}
