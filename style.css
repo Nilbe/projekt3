@@ -17,7 +17,7 @@ header{
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0, 0.1), rgb(100,100,100)),  url(./1.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.1), rgb(10,10,10)),  url(./1.jpg);
 }
 
 .first-collection{
